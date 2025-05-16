@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iteraciones</title>
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Operaciones Matemáticas</h1>
+        
+        <div class="input-group">
+            <label for="numero1">Primer número:</label>
+            <input type="number" id="numero1" placeholder="Ingrese el primer número">
+        </div>
+        
+        <div class="input-group">
+            <label for="numero2">Segundo número:</label>
+            <input type="number" id="numero2" placeholder="Ingrese el segundo número">
+        </div>
+        
+        <button>Calcular Operaciones</button>
+        
+        <div id="resultado" class="result">
+            <h3>Resultados:</h3>
+            <div id="iteraciones"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
